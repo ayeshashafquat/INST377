@@ -1,3 +1,17 @@
-div {
-    background: #css
+body {
+    margin: 0;
+}
+.header
+{
+    background-color: #cccccc;
+    padding: 20px;
+    text-align: center;
+}
+div class: "header"
+{
+    <h1 style="text-align:center;"> <b style="font-size:50px;"> Ayesha Shafquat's Resume </b> </h1>
+    <p style="text-align:center;">450 W Central Ave Davidsonville MD 21035
+        | <a href="ashafqua@terpmail.umd.edu">ashafqua@terpmail.umd.edu</a>
+        | (301) 500 9277
+    </p>
 }
