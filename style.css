@@ -1,0 +1,71 @@
+.employment {
+    background-color: mistyrose;
+    color: black;
+    margin: 30px;
+    padding: 20px;
+    border: 2px aqua dotted;
+    box-shadow: 1px 1px 25px black;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.employment:hover {
+    background-color: brown;
+}
+
+.body {
+    background-color: snow;
+}
+
+a {
+    color: mistyrose;
+    text-decoration: none;
+}
+
+.centered {
+    text-align: center;
+}
+
+.heading {
+    font-size: 50px;
+}
+
+.heading-paragraph {
+    text-align: center;
+}
+
+.label {
+    color: mediumvioletred;
+}
+
+.image-1 {
+    width: 420px;
+    height: 420px;
+}
+
+.page-heading {
+    background-color: brown;
+    color: pink;
+}
+
+.body-div {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#picture, 
+#work {
+    margin: 5px;
+    border: 2px red solid;
+}
+
+#picture {
+    width: 50%;
+    font-style: oblique;
+}
+
+#work {
+    width: 50%;
+}
