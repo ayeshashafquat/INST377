@@ -1,72 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Sample HTML Demonstration Page</title>
     <style>
-      /* 
-    Place your fresh CSS styles here to help organize the page
-  */
-      body {
-        background: grey;
-      }
       .head {
-        text-align: center;
-        font-size: 48px;
-      }
-      .interior {
-        text-align: center;
-        background: pink;
-        padding: 60px;
-        margin-bottom: 10px;
-      }
-      .row-1 {
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 900;
         display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+      }
+      .head a {
+        color: purple;
+        font-size: 12px;
+        margin-top: 15px;
+        padding: 10px;
+        font-weight: 200;
+      }
+      .wrapper {
+        height: 100vh;
+        width: 70%;
+        background: grey;
+        align-items: center;
+        margin: auto;
+      }
+      .second_container {
+        background: pink;
+        height: 120px;
+        display: flex;
+        align-items: center;
         justify-content: center;
       }
-      .first-cont,
-      .second-cont {
-        margin: 0px 100px;
-        width: 40%;
-        text-align: center;
-        padding: 50px;
-        display: inline-block;
-        background: red;
+      .containers {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
       }
-      .second {
-        margin: auto;
+      .container {
+        display: flex;
+        align-items: center;
+        width: 350px;
+        justify-content: center;
+        background: red;
+        cursor: pointer;
+        margin: 25px;
+        height: 110px;
+      }
+      .textbox {
         background: lightblue;
-        padding: 50px;
-        width: 50%;
-        text-align: center;
-        margin-top: 25px;
+        height: 100px;
+        width: 350px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
     </style>
-    <!-- <link rel='stylesheet' type='text/css' href='lab_3_bad_css.css'/>-->
   </head>
+
   <body>
     <div class="wrapper">
       <div class="head" id="start">
         Sample Header
+        <a href="anchortag">anchor tag to nowhere</a>
       </div>
       <div class="second_container">
         <div class="interior">
           hello
         </div>
       </div>
-      <div class="container">
-        <div class="row-1">
-          <div class="first-cont">
-            click me I'm great
-          </div>
-          <div class="second-cont">
-            
-          </div>
+
+      <div class="containers">
+        <div class="container">
+          click me I'm great
         </div>
-        <div class="second textbox">
-          <p>
-            World #2
-          </p>
-        </div>
+        <div class="container"></div>
+      </div>
+      <div class="second textbox">
+        <p>
+          World #2
+        </p>
       </div>
     </div>
   </body>
